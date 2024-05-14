@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width,initial-scale=1">
+                <title>yvm.</title>
+        </head>
+        <body>
+                <header>
+                        <h1>Welcome to Yvm, the questionable JVM.</h1>
+                </header>
+                <main>
+                        <p>Yvm executes (some) JVM bytecode. It supports:
+                                <ul>
+                                        <li><code>int</code>s, <code>char</code>s, (multi-dimensional) <code>char[]</code>s</li>
+                                        <li>static methods</li>
+                                        <li>a native <code>print</code> method</li>
+                                </ul>
+                                Put differently: The Yvm does not support OO, anything from the Java
+                                Standard Library, <code>long</code>, and all the other things
+                                you like about Java.
+                                Admire the big match statement in <code>src/interpreter.ml</code>
+                                to see which opcodes are supported.
+                        </p>
+
+                        <h2>YNotes</h2>
+                        <p>To demonstrate the power of the Yvm, we created
+                                <a href="/notes.php">YNotes</a>, our flagship Yvm app.</p>
+
+                        <h2>Run Code</h2>
+                        <p>Click <a href="/usage_example.html">here</a> for an usage example. TL;DR:
+                                <ol>
+                                        <li>Create and compile <code>Foo.java</code> on your Machine</li>
+                                        <li>Upload <code>Foo.class</code></li>
+                                        <li>...</li>
+                                        <li>Output</li>
+                                </ol>
+                        </p>
+
+                        <form action="runner.php" method="post" enctype="multipart/form-data">
+                                <label for="fileToUpload">Select classfile to upload:</label>
+                                <input type="file" name="fileToUpload" id="fileToUpload" accept=".class">
+                                <input type="submit" value="Upload file" name="submit">
+                        </form>
+                </main>
+        </body>
+</html>

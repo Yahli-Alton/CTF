@@ -1,0 +1,54 @@
+    318 /lib64/ld-linux-x86-64.so.2
+    531 fgets
+    537 puts
+    53c exit
+    541 fopen
+    547 fork
+    54c ptrace
+    553 getpid
+    55a __libc_start_main
+    56c __cxa_finalize
+    57b kill
+    580 syscall
+    588 libc.so.6
+    592 GLIBC_2.2.5
+    59e GLIBC_2.34
+    5a9 _ITM_deregisterTMCloneTable
+    5c5 __gmon_start__
+    5d4 _ITM_registerTMCloneTable
+   10dd PTE1
+   117b u+UH
+   120a 4Vx*Dh
+   12e0 rstuvwxyz~
+   2008 You're leet!
+   2015 Nope!
+   2020 Flag file not found! Please create or buy one! ( o 0 o )
+   2060 Needs a map containing a flag as argv[1] ~ ( ' O ' ) ~, help me get to the rome!
+   2167 ;*3$"
+   31b8 GCC: (Debian 11.3.0-5) 11.3.0
+   31d7 .shstrtab
+   31e1 .interp
+   31e9 .note.gnu.property
+   31fc .note.gnu.build-id
+   320f .note.ABI-tag
+   321d .gnu.hash
+   3227 .dynsym
+   322f .dynstr
+   3237 .gnu.version
+   3244 .gnu.version_r
+   3253 .rela.dyn
+   325d .rela.plt
+   3267 .init
+   326d .plt.got
+   3276 .text
+   327c .fini
+   3282 .rodata
+   328a .eh_frame_hdr
+   3298 .eh_frame
+   32a2 .init_array
+   32ae .fini_array
+   32ba .dynamic
+   32c3 .got.plt
+   32cc .data
+   32d2 .bss
+   32d7 .comment

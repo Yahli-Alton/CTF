@@ -1,0 +1,76 @@
+    318 /lib64/ld-linux-x86-64.so.2
+    36f #[=#N
+    3c3 mgUa
+    561 libc.so.6
+    56b strcpy
+    572 fopen
+    578 puts
+    57d stdin
+    583 printf
+    58a fgets
+    590 strlen
+    597 __isoc99_fscanf
+    5a7 fclose
+    5ae malloc
+    5b5 __cxa_finalize
+    5c4 __libc_start_main
+    5d6 free
+    5db GLIBC_2.7
+    5e5 GLIBC_2.2.5
+    5f1 _ITM_deregisterTMCloneTable
+    60d __gmon_start__
+    61c _ITM_registerTMCloneTable
+   122b u+UH
+   13c2 @`=!seYuxH
+   14dd =!seYuLH
+   14ee Well donH
+   14f8 e! Your H
+   1509 passcodeH
+   1513  is indeH
+   1524 @ ed: 
+   153a You shelH
+   1544 l not paH
+   1555 ss! YourH
+   155f  entry wH
+   1570 @ as:
+   16ba []A\A]A^A_
+   2008 Enter your passcode: 
+   2020 Checking passcode! [Under construction]
+   204a flag
+   204f Good try, but no flag found.
+   206f flag: %s
+   2079 Hello stranger. Welcome.
+   2098 Buffer overflow detected! Exiting...
+   20bd Nope! Exiting...
+   20ce %.*s
+   20d8 *****************************************
+   2102 An error happened!
+   2115 Try again.
+   21cf :*3$"
+   3010 GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+   303c .shstrtab
+   3046 .interp
+   304e .note.gnu.property
+   3061 .note.gnu.build-id
+   3074 .note.ABI-tag
+   3082 .gnu.hash
+   308c .dynsym
+   3094 .dynstr
+   309c .gnu.version
+   30a9 .gnu.version_r
+   30b8 .rela.dyn
+   30c2 .rela.plt
+   30cc .init
+   30d2 .plt.got
+   30db .plt.sec
+   30e4 .text
+   30ea .fini
+   30f0 .rodata
+   30f8 .eh_frame_hdr
+   3106 .eh_frame
+   3110 .init_array
+   311c .fini_array
+   3128 .dynamic
+   3131 .data
+   3137 .bss
+   313c .comment

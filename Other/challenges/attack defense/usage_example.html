@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>yvm.</title>
+</head>
+
+<body>
+  <header>
+    <h1>Yvm usage example</h1>
+  </header>
+  <main>
+    <p>First, create a Java file.</p>
+
+    <p>The Yvm does support integers, (multi-dimensional) char arrays and static methods.
+      Printing is done by declaring a <code>static native void print(...)</code> with
+      the corresponding type (<code>int</code>, <code>char</code>, <code>char[]</code>, etc).</p>
+
+    <pre id="foo-code">
+class Foo {
+  static int i = 123;
+  static char[] msg = {'h', 'i', ' ', 'w', 'o', 'r', 'l', 'd'};
+
+  static native void print(int x);
+  static native void print(char[] x);
+
+  static int add(int a, int b) {
+    return a + b;
+  }
+
+  static void main(String[] args) {
+    print(msg);
+  }
+}
+</pre>
+
+    <p>Compile your Java file on your machine with <code>javac Foo.java</code>.
+      This will create a <code>Foo.class</code> file.
+      Note that the name of the class-file is determined by the name of the class,
+      not the name of the file.
+    </p>
+
+    <p>Take the resulting class file and upload it via the form in the
+      <a href="/index.html">index.html</a>.
+    </p>
+
+    <p>The class-file will be executed and the output will be displayed back.
+      In this case, the following is printed on <code>stdout</code>:
+    </p>
+
+    <pre id=" foo-result">
+hi world
+</pre>
+
+
+
+    <p>Note that the upload fails if a file with that name already exists.</p>
+
+    <p>Since the Yvm supports a rudimentary classloader, you can access other classes
+      that where uploaded previously. Compiling and uploading/running the following
+      file after uploading <code>Foo.class</code>...</p>
+    <pre id="bar-code">
+class Bar {
+  static void main(String[] args) {
+    int x = Foo.add(Foo.i, Foo.i);
+    Foo.print(x);
+  }
+}
+</pre>
+
+    <p>...will yield the following output:</p>
+
+    <pre id="bar-result">
+246
+</pre>
+
+  </main>
+</body>
+
+</html>

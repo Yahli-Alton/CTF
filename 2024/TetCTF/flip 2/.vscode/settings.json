@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.sage": "python",
+        "aes.h": "c",
+        "unistd.h": "c"
+    }
+}
