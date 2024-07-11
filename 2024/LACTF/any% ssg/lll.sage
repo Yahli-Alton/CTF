@@ -60,7 +60,7 @@ for _ in range(26):
 
 prev_long()
 
-seed_ = seed
+seed = seed
 
 for _ in range(26 + n):
     print()

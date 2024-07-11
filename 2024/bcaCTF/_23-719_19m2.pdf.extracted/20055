@@ -1,0 +1,75 @@
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo <<
+/Registry (Adobe)
+/Ordering (SI-IEAAAA+TimesNewRomanPS-BoldMT)
+/Supplement 0
+>> def
+/CMapName /Adobe-SI-IEAAAA+TimesNewRomanPS-BoldMT-0 def
+/CMapType 2 def
+2 begincodespacerange
+<00> <EF>
+<F000> <FFFF>
+endcodespacerange
+55 beginbfchar
+<00> <FFFD>
+<20> <0020>
+<21> <0021>
+<22> <0022>
+<23> <0023>
+<24> <0024>
+<25> <0025>
+<26> <0026>
+<27> <0027>
+<28> <0028>
+<29> <0029>
+<2A> <002A>
+<2B> <002B>
+<2C> <002C>
+<2D> <002D>
+<2E> <002E>
+<2F> <002F>
+<30> <0030>
+<31> <0031>
+<32> <0032>
+<33> <0033>
+<34> <0034>
+<35> <0035>
+<36> <0036>
+<37> <0037>
+<38> <0038>
+<39> <0039>
+<3A> <003A>
+<3B> <003B>
+<3C> <003C>
+<3D> <003D>
+<3E> <003E>
+<3F> <003F>
+<40> <0040>
+<41> <0041>
+<42> <0042>
+<43> <0043>
+<44> <0044>
+<45> <0045>
+<46> <0046>
+<47> <0047>
+<48> <0048>
+<49> <0049>
+<4A> <004A>
+<4B> <004B>
+<4C> <004C>
+<4D> <004D>
+<4E> <004E>
+<4F> <004F>
+<50> <0050>
+<51> <0051>
+<52> <0052>
+<53> <0053>
+<54> <0054>
+<55> <0055>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end

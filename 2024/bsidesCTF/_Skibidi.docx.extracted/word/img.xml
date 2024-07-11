@@ -1,0 +1,21 @@
+<root>
+  <person
+  firstname="QnNpZGVzVExWMjAyNHt3M19k"
+  lastname="M2YzNXQzZF90aDNfc2sxYjFkaX0="
+  city="Haifa"
+  country="Israel"
+  firstname2="QnNpZGVzVExWMjAyNHt3M19k"
+  lastname2="M2YzNXQzZF90aDNfc2sxYjFkaX0="
+  email="Ulrike.Leffen@yopmail.com"
+  />
+  <random>6</random>
+  <random_float>89.838</random_float>
+  <bool>true</bool>
+  <date>1986-09-28</date>
+  <regEx>helloooooooooooooooooooooooooooooooooooooooooooo world</regEx>
+  <enum>generator</enum>
+  <elt>Alyssa</elt><elt>Flory</elt><elt>Ulrike</elt><elt>Teriann</elt><elt>Reeba</elt>  
+  <Ulrike>
+    <age>56</age>
+  </Ulrike>
+</root>

@@ -1,0 +1,51 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PDF document, version: "1.6"
+214           0xD6            Zlib compressed data, default compression
+3997          0xF9D           Zlib compressed data, default compression
+4259          0x10A3          Zlib compressed data, default compression
+12606         0x313E          Zlib compressed data, default compression
+15678         0x3D3E          Zlib compressed data, default compression
+18034         0x4672          Zlib compressed data, default compression
+20086         0x4E76          Zlib compressed data, default compression
+21788         0x551C          Zlib compressed data, default compression
+24619         0x602B          Zlib compressed data, default compression
+25443         0x6363          Zlib compressed data, default compression
+27709         0x6C3D          Zlib compressed data, default compression
+30281         0x7649          Zlib compressed data, default compression
+32870         0x8066          Zlib compressed data, default compression
+35681         0x8B61          Zlib compressed data, default compression
+38563         0x96A3          Zlib compressed data, default compression
+41471         0xA1FF          Zlib compressed data, default compression
+44882         0xAF52          Zlib compressed data, default compression
+48266         0xBC8A          Zlib compressed data, default compression
+50978         0xC722          Zlib compressed data, default compression
+53610         0xD16A          Zlib compressed data, default compression
+56082         0xDB12          Zlib compressed data, default compression
+58027         0xE2AB          Zlib compressed data, default compression
+60381         0xEBDD          Zlib compressed data, default compression
+61234         0xEF32          Zlib compressed data, default compression
+64291         0xFB23          Zlib compressed data, default compression
+67410         0x10752         Zlib compressed data, default compression
+70689         0x11421         Zlib compressed data, default compression
+73836         0x1206C         Zlib compressed data, default compression
+76922         0x12C7A         Zlib compressed data, default compression
+79471         0x1366F         Zlib compressed data, default compression
+80970         0x13C4A         Zlib compressed data, default compression
+82274         0x14162         Zlib compressed data, default compression
+106295        0x19F37         Zlib compressed data, default compression
+107198        0x1A2BE         Zlib compressed data, default compression
+107768        0x1A4F8         Zlib compressed data, default compression
+126206        0x1ECFE         Zlib compressed data, default compression
+127017        0x1F029         Zlib compressed data, default compression
+128342        0x1F556         Zlib compressed data, default compression
+128973        0x1F7CD         Zlib compressed data, default compression
+129526        0x1F9F6         Zlib compressed data, default compression
+130347        0x1FD2B         Zlib compressed data, default compression
+131157        0x20055         Zlib compressed data, default compression
+131710        0x2027E         Zlib compressed data, default compression
+132628        0x20614         Zlib compressed data, default compression
+137568        0x21960         Zlib compressed data, default compression
+138076        0x21B5C         Zlib compressed data, default compression
+

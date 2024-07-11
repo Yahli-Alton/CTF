@@ -1,0 +1,95 @@
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: ProcSet (CIDInit)
+%%IncludeResource: ProcSet (CIDInit)
+%%BeginResource: CMap (TeX-ptmr8r-8r-0)
+%%Title: (TeX-ptmr8r-8r-0 TeX ptmr8r-8r 0)
+%%Version: 1.000
+%%EndComments
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo
+<< /Registry (TeX)
+/Ordering (ptmr8r-8r)
+/Supplement 0
+>> def
+/CMapName /TeX-ptmr8r-8r-0 def
+/CMapType 2 def
+1 begincodespacerange
+<00> <FF>
+endcodespacerange
+15 beginbfrange
+<06> <07> <0141>
+<0E> <0F> <017D>
+<18> <19> <2264>
+<20> <26> <0020>
+<28> <5F> <0028>
+<61> <7E> <0061>
+<86> <87> <2020>
+<93> <94> <201C>
+<96> <97> <2013>
+<A1> <AC> <00A1>
+<AE> <D7> <00AE>
+<D8> <EC> <00D8>
+<ED> <F6> <00ED>
+<F7> <FB> <00F7>
+<FC> <FE> <00FC>
+endbfrange
+50 beginbfchar
+<01> <02D9>
+<02> <00660069>
+<03> <0066006C>
+<04> <2044>
+<05> <02DD>
+<08> <02DB>
+<09> <02DA>
+<0B> <02D8>
+<0C> <2212>
+<10> <02C7>
+<11> <0131>
+<12> <0237>
+<13> <00660066>
+<14> <006600660069>
+<15> <00660066006C>
+<16> <2260>
+<17> <221E>
+<1A> <2202>
+<1B> <2211>
+<1C> <220F>
+<1D> <03C0>
+<1E> <0060>
+<1F> <0027>
+<27> <2019>
+<60> <2018>
+<80> <20AC>
+<81> <222B>
+<82> <201A>
+<83> <0192>
+<84> <201E>
+<85> <2026>
+<88> <02C6>
+<89> <2030>
+<8A> <0160>
+<8B> <2039>
+<8C> <0152>
+<8D> <2126>
+<8E> <221A>
+<8F> <2248>
+<95> <2022>
+<98> <02DC>
+<99> <2122>
+<9A> <0161>
+<9B> <203A>
+<9C> <0153>
+<9D> <2206>
+<9E> <25CA>
+<9F> <0178>
+<AD> <002D>
+<FF> <00FF>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+%%EndResource
+%%EOF

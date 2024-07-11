@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="/style.css">
+    <div class="container">
+        <h1>The Ãrmstrong Storefront Inventory</h1>
+        <form action="/search" method="POST">
+            <input
+                type="text"
+                name="item"
+                placeholder="Otamatone, Echo dot, Razer Cynosa Chroma..."
+            >
+            <input type="submit" value="Search">
+        </form>
+        <script>
+            const form = document.querySelector('form')
+            form.addEventListener('submit', (event) => {
+              const allowed = new Set(
+                  const item = form.querySelector('input[name="item"]').value
+                    'abcdefghijklmnop' +
+                    'qrstuvwxyzABCDEF' +
+                    'GHIJKLMNOPQRSTUV' +
+                    'WXYZ0123456789, '
+                )
+                if (item.split('').some((char) => !allowed.has(char))) {
+                    alert('Invalid characters in search query.')
+                    event.preventDefault()
+                }
+            })
+        </script>
+        
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Details</th>
+                </tr>
+                
+                    <tr>
+                        <td>Otamatone</td>
+                        <td>A extremely serious synthesizer. Comes in a variety of colors.</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Echo dot</td>
+                        <td>A smart speaker that can play music, make calls, and answer questions.</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Razer Cynosa Chroma</td>
+                        <td>A gaming keyboard with customizable RGB lighting.</td>
+                    </tr>
+                
+            </table>
+        
+    </div>
